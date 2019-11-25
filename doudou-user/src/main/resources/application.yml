@@ -1,0 +1,8 @@
+#dubbo:
+#  application:
+#    name: doudou-user
+#  registry:
+#    address: 192.168.126.128:2181
+#  protocol:
+#    name: dubbo
+#    port: 20880
