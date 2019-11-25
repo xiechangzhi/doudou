@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="doudou-api" />
+        <module name="doudou-common-util" />
+        <module name="doudou-service-util" />
+        <module name="doudou-user" />
+        <module name="doudou-user-service" />
+        <module name="doudou-user-web" />
+        <module name="doudou-web-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="doudou-api" target="1.5" />
+      <module name="doudou-common-util" target="1.8" />
+      <module name="doudou-parent" target="1.8" />
+      <module name="doudou-service-util" target="1.8" />
+      <module name="doudou-user" target="1.8" />
+      <module name="doudou-user-service" target="1.8" />
+      <module name="doudou-user-web" target="1.8" />
+      <module name="doudou-web-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="doudou-common-util" options="" />
+      <module name="doudou-parent" options="-parameters" />
+      <module name="doudou-service-util" options="" />
+      <module name="doudou-user" options="" />
+      <module name="doudou-user-service" options="" />
+      <module name="doudou-user-web" options="" />
+      <module name="doudou-web-util" options="" />
+    </option>
+  </component>
+</project>

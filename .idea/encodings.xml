@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/doudou-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudou-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudou-service-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudou-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudou-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudou-user-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudou-web-util" charset="UTF-8" />
+  </component>
+</project>
