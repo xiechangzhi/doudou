@@ -20,7 +20,7 @@ public class UmsMemberServiceImpl implements UmsMemberService {
     UmsMemberReceiveAddressMapper umsMemberReceiveAddressMapper;
 
     @Override
-    public List<UmsMember> getAllUser() {
+    public List<UmsMember> getAllUmsMember() {
         List<UmsMember> umsMembers = umsMemberMapper.selectAll();//umsMemberMapper.selectAllUser();
         return umsMembers;
     }

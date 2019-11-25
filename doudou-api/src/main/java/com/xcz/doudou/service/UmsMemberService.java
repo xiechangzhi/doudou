@@ -10,7 +10,7 @@ public interface UmsMemberService {
      * 获得所有用户信息
      * @return
      */
-    List<UmsMember> getAllUser();
+    List<UmsMember> getAllUmsMember();
 
     /**
      * 根据用户id查询用户地址
