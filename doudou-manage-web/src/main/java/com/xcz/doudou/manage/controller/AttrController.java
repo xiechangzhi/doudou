@@ -2,7 +2,7 @@ package com.xcz.doudou.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.xcz.doudou.pojo.PmsBaseAttrInfo;
-import com.xcz.doudou.service.PmsBaseAttrInfoService;
+import com.xcz.doudou.service.PmsBaseAttrService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,12 +15,19 @@ import java.util.List;
 public class AttrController {
 
     @Reference
-    PmsBaseAttrInfoService pmsBaseAttrInfoService;
+    PmsBaseAttrService pmsBaseAttrService;
+
+
+    @ResponseBody
+    @RequestMapping("saveAttrInfo")
+    public String saveAttrInfo(String catalog3Id){
+        return "success";
+    }
 
     @ResponseBody
     @RequestMapping("attrInfoList")
     public List<PmsBaseAttrInfo> attrInfoList(String catalog3Id){
-        List<PmsBaseAttrInfo> pmsBaseAttrInfos=pmsBaseAttrInfoService.attrInfoList(catalog3Id);
+        List<PmsBaseAttrInfo> pmsBaseAttrInfos=pmsBaseAttrService.attrInfoList(catalog3Id);
         return pmsBaseAttrInfos;
     }
 }
