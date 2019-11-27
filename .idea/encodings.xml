@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/doudou-common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudou-manage-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doudou-manage-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doudou-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doudou-service-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doudou-user" charset="UTF-8" />

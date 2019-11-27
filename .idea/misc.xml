@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/doudou-web-util/pom.xml" />
         <option value="$PROJECT_DIR$/doudou-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/doudou-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/doudou-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/doudou-manage-web/pom.xml" />
       </list>
     </option>
   </component>

@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/doudou.iml" filepath="$PROJECT_DIR$/.idea/doudou.iml" />
       <module fileurl="file://$PROJECT_DIR$/doudou-api/doudou-api.iml" filepath="$PROJECT_DIR$/doudou-api/doudou-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/doudou-common-util/doudou-common-util.iml" filepath="$PROJECT_DIR$/doudou-common-util/doudou-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doudou-manage-service/doudou-manage-service.iml" filepath="$PROJECT_DIR$/doudou-manage-service/doudou-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doudou-manage-web/doudou-manage-web.iml" filepath="$PROJECT_DIR$/doudou-manage-web/doudou-manage-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/doudou-parent/doudou-parent.iml" filepath="$PROJECT_DIR$/doudou-parent/doudou-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/doudou-service-util/doudou-service-util.iml" filepath="$PROJECT_DIR$/doudou-service-util/doudou-service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/doudou-user/doudou-user.iml" filepath="$PROJECT_DIR$/doudou-user/doudou-user.iml" />
